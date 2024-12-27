@@ -9,7 +9,7 @@ for i in num:
         i = i + 3
         res.append(i)
     else:
-        continue
+        break
     
 for j in range(len(res)):
     print(res[j],end=" ")
