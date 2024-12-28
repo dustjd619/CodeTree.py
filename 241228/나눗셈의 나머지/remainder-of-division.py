@@ -5,7 +5,8 @@ sum = 0
 while True:
     count[a % b] += 1
     a = a // b
-    if a//b == 0:
+
+    if a//b <= 1:
         count[a % b] += 1
         break
 
